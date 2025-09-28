@@ -146,6 +146,7 @@ function toggleSwitch(name, isChecked) {
   );
 }
 
+
 // List item functionality
 function selectListItem(item) {
   document.querySelectorAll(".list-item").forEach((li) => {

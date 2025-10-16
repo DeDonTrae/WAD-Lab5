@@ -101,7 +101,9 @@ p {
   background-color: #1e1e1e;
   color: #d4d4d4;
 }
-
+.dark-theme .accordion-header { /* Custom Overright for accordion header added for dark-theme visibility*/
+  color: var(--light);
+}
 /* Card Styles */
 .card {
   background-color: var(--card-bg);
